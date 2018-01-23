@@ -1,0 +1,748 @@
+/**********************************************************************
+*************CSS criado por FELIPE CHA CHA 01-18***********************
+***********************************************************************
+CONTATO: felipeimenda04@gmail.com /contato@codemakerweb.com.br
+***********************************************************************/
+
+/************REGRAS GERAIS*******************
+*********************************************/
+
+*{
+    margin:0;
+    padding:0;
+}
+
+html,body{
+    width: 100%;
+    font-family: 'Alegreya Sans', sans-serif;
+    letter-spacing: .200em;
+}
+
+body{
+    overflow-x: hidden;
+    width: 100vw;
+    
+}
+
+.btn-circle{
+   border-radius: 20px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+    font-family: 'Offside', cursive;
+}
+
+p{
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+
+.centralize{
+    /*alinhar conteudo com display flex*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+#topo, #sobre, #ideia, #codemaker-home, #servicos, #portfolio-home, #contato-home{
+    padding-top: 100px;
+    padding-bottom:50px;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    
+}
+
+.text-content{
+    padding:20px 20px;
+    margin-top:30px;
+}
+
+.text-content h1{
+    margin-bottom: 30px;
+    font-size: 2em;
+    font-weight: 400;
+ }
+ 
+    .text-content h3{
+      font-size: 1.3em;
+      padding-bottom: 30px;
+  }
+  
+.text-content p{
+    color: #b1afaf;
+    font-size: .950em;
+}
+/***************NAVEGAÇAO********************
+********************************************/
+
+.navbar{
+    padding-top: 0;
+    padding-right: 25px;
+    transition: all .5s linear;
+    padding-bottom:0;
+}
+
+.bg-custom{
+    background: linear-gradient(45deg, rgba(0, 0, 0, .7), rgba(0,0,0, .7), rgba(0, 0, 0, .7));
+    
+}
+
+.bg-custom-fixed{
+    background: #231F20 ;
+    
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    height: 100%;
+    color: rgba(255,255,255,1);
+    padding: 25px 15px;
+    font-weight: 400;
+    /* font-family: 'Offside', cursive; */
+    display:inline-block;
+    transition: all .3s linear;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    background-color: #7B1315 ;
+    color:#FFF;
+    
+}
+
+.nav-tel{
+    background: none;
+    display: inline-block;
+}
+
+.nav-tel i{
+    color: #FFF;
+    margin: 0px auto;
+    padding-left: 5px;
+    transition: all .3s linear;
+}
+
+.nav-tel:hover i{
+    color:#FFF;
+}
+
+
+
+.img-logo{
+    
+    transition: all 1s linear;
+}
+
+/***************FIM NAVEGAÇAO********************
+********************************************/
+
+
+
+/***************HEADER (TOPO)********************
+********************************************/
+
+  /************TOPO***********************/
+  .video-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%; 
+    z-index: -999;
+    overflow: hidden;
+    
+}
+
+  #topo{
+    /* background: linear-gradient(45deg, rgba(255, 0, 0, .5), rgba(0, 0, 0, .8), rgba(0, 0, 0, 1)), url("http://dois2k.com.br/images/backgrounds/dois-2k-escritorio.jpg") center no-repeat; */
+     background: linear-gradient(45deg, rgba(0, 0, 0, .7), rgba(0,0,0, .7), rgba(0, 0, 0, .7));
+    height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+    z-index: -2;
+  }
+
+  #topo p{
+      font-size: 1.2em;
+      color:#FF0055;
+      font-weight: 200;
+      font-family: 'Offside', cursive;
+      width: 50%;
+      
+  }
+
+  #topo span{
+    font-size: 1.3em;
+     font-weight: bold;
+     text-transform: uppercase;
+  }
+
+  #topo h2{
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #c3c3c3;
+    
+}
+
+  .text-header{  
+    padding: 20px 20px;
+     z-index: 2;
+    
+  }
+
+  .text-header h1{
+    font-size: 4em;
+    color: #FFF;
+    font-family: 'Offside', cursive;
+  }
+
+  .text-header h2{
+      font-size: 2.5em;
+      color: #FFF;
+      font-weight: 700;
+      font-family: 'Offside', cursive;
+  }
+
+  .text-header h4{
+    font-size: 1.4em;
+    color: #FFF;
+}
+.indicator{
+    position: relative;
+    top:15%;
+    bottom: 0;
+}
+.seta i{
+   padding-top: 0px;
+    color: #c3c3c3;
+}
+.seta i:hover{
+    color: #FFF;
+}
+
+/************SESSAO DESCRICAO***********************/
+
+#sobre{
+    background:#FFF;
+    background-size: cover; 
+    border-bottom:1px solid #c3c3c3;
+}
+
+
+#codemaker-home{
+    background: #FFF;
+    border-bottom:1px solid #c3c3c3;
+}
+
+
+#ideia{
+    background:#FFF;
+    border-bottom:1px solid #c3c3c3;
+}
+
+#ideia button{
+    margin: 20px;
+}
+
+#ideia .text-content{
+  margin-top:20px;
+  padding: 0 20px 0px 20px;
+  
+}
+
+#ideia .text-content h1{
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+ #ideia .text-content h3{
+    font-size: 1.3em;
+    padding-bottom: 30px;
+}
+
+#ideia .text-content p{
+    font-size: .900em;
+    padding-bottom: 20px;
+    color: #c4c4c4;
+
+}
+
+
+
+/************FIM SESSAO DESCRICAO***********************/
+
+
+/************SERVIÇOS***********************/
+
+#servicos{
+    background: #f3f3f3;
+}
+
+.box-servicos{
+    overflow: hidden;
+    border-radius: 5px;
+    background:#c1c1c1;
+    /* width: 350px;
+    height: 250px; */
+    margin-bottom: 20px;
+    transition: all .5s ease-in;  
+}
+
+.web-site{
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .8),rgba(0, 0, 0, 1)), url("http://dois2k.com.br/images/backgrounds/dois-2k-escritorio.jpg") center no-repeat;
+    background-size: cover;
+}
+.box-servicos img{
+    transition: all .5s ease-in;
+    height: 100%;
+    width:100;
+}
+
+.box-servicos i{
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+
+.box-servicos:hover img{
+    transform: scale(1.2);
+}
+
+.box-description{
+    text-align: center;
+    /* width: 350px; */
+}
+.box-description h3{
+    padding-bottom: 10px;
+    font-size: 1.2em;
+}
+.box-description p{
+    padding-bottom: 10px;
+    font-size: .800em;
+    color: #b1afaf;
+}
+/***************FIM SERVIÇOS****************************/
+
+/************PORTFOLIO-HOME***************
+*********************************************/
+
+#portfolio-home{
+    background:#FFF;
+}
+
+/**************AREA CAROUSEL***************/
+
+.owl-theme .owl-dots{
+    margin-top: 20px;
+}
+
+.owl-theme .owl-dots .owl-dot span{
+    background: #d6d6d6;
+}
+
+.owl-theme .owl-dots .owl-dot span:hover{
+    background: #FF0055;
+}
+
+.owl-nav{
+    display: none;
+}
+
+.description{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background:  rgba(0,0,0, .5);
+    min-height: 100px;
+    opacity: 0;
+    transition: all .5s linear;
+    
+}
+
+.description h6{
+    padding: 10px 0px 0px 20px;
+    margin-bottom: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.description p{
+    padding: 5px 0px 5px 0px;
+    margin-bottom: 0;
+    color: #c0c0c0;
+    text-align: center;
+}
+
+.description a i{
+    color: #FFF;
+    transition: all .2s linear; 
+    padding-bottom: 5px;  
+}
+
+.description a i:hover{
+    color: #c0c0c0;
+}
+
+
+.slick-item{
+    width: 100%;
+    overflow: hidden;
+    background: #c0c0c0;
+    border-radius: 0px;
+   
+}
+.slick-item img{
+    transition: all .3s linear;
+    
+    
+}
+
+.slick-item:hover img{
+   transform: scale(1.1);
+   opacity: .8;
+   
+}
+
+.slick-item:hover .description{
+    opacity:1;
+ }
+/****FIM AREA CAROUSEL*******/
+/****FIM AREA portfolio*******/
+
+
+
+/****INICIO AREA CONTATO*******/
+
+#contato-home{
+    background: #f3f3f3;
+}
+
+#contato-home img{
+
+    margin: 10px auto;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+label{
+    display: none;
+}
+
+#nome-erro, #mail-erro, #tel-erro, #msg-erro{
+    margin-top: 5px;
+    font-size: .880em;
+    color: #FF0000;
+    text-align: center;
+}
+
+#msg-retorno{   
+    font-size: .880em;
+    text-align: center;
+    margin-top: 10px;
+}
+/****FIM AREA CONTATO*******/
+
+
+/********************* INICIO RODAPE**************************
+************************************************************/
+footer{
+    padding-top:20px;
+    background: #323131;
+    color: #FFF; 
+    width: 100vw;
+    height: 100%;
+    color: rgb(95, 93, 93);
+}
+
+footer .nav-item a{
+    text-decoration: none;
+    color: rgb(95, 93, 93);
+    font-weight: 500;
+    transition: all .3s linear;
+}
+
+footer .nav-item a:hover{
+    color: #FFF;
+    
+}
+
+footer .nav-item i{
+    color: #17a2b8;
+    margin-bottom: 7px;
+}
+
+.contatos p, .news-social p{
+    font-weight: 600;
+}
+
+.news-social, .contatos{
+   
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top:10px;
+    margin-bottom: 20px;
+}
+
+.contatos-lista{
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+
+.copy{
+    width: 100vw;
+    padding: 5px;
+    background: rgb(37, 36, 36);
+}
+
+.copyright{
+    margin-top:10px;
+}
+.copyright p{
+    font-size: .900em;
+    color: rgb(77, 73, 73);
+    font-weight: 500;
+}
+
+/********animaÃ§Ã£o rede social***********/
+
+/*=========================
+  Icons
+ ================= */
+
+/* footer social icons */
+.wrapper {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center; 
+    padding-bottom:20px;
+  }
+  
+  .wrapper i {
+    padding: 0px 10px;
+  }
+  
+  .wrapper a:nth-child(1) {
+    color: #4867AA;
+    cursor: pointer;
+    text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
+    transition: all ease-in-out 150ms;
+  }
+  
+  .wrapper a:nth-child(1):hover {
+    margin-top: -10px;
+    text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
+    transform: translate(0, -8);
+  }
+  
+  .wrapper a:nth-child(2) {
+    color: #0976b4;
+    cursor: pointer;
+    text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
+    transition: all ease-in-out 150ms;
+  }
+  
+  .wrapper a:nth-child(2):hover {
+    margin-top: -10px;
+    text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
+    transform: translate(0, -8);
+  }
+  
+  .wrapper a:nth-child(3) {
+      
+    color: #813DB4; 
+    cursor: pointer;
+    text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+    transition: all ease-in-out 150ms;
+  }
+  
+  .wrapper a:nth-child(3):hover {
+    margin-top: -10px;
+    text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+    transform: translate(0, -5);
+  }
+  
+/****************fim animaÃ§Ã£o**************/
+/********************* FIM RODAPE**************************
+************************************************************/
+
+/************MEDIA QUERIES***************
+*********************************************/
+
+/************SMALL DEVICES XS***************
+*********************************************/
+@media only screen and (max-width:767px){
+
+    
+    body{
+        overflow-x: hidden;
+    }
+
+    .centralize-xs{
+        /*alinhar conteudo com display flex*/
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+    }
+
+     /********navegação************/
+    .navbar{
+        overflow: hidden!important;
+        width: 100vw;
+        padding-left: 25px; 
+        padding-top: 10px;
+        padding-right: 25px; 
+        transition: all .5s linear;
+        padding-bottom:10px;
+        text-align: center;
+    }
+
+    .bg-custom{
+        background: linear-gradient(35deg, rgba(0, 0, 0, .8), rgba(0, 0, 0, .8), rgba(0, 0, 0, .8));
+        
+    }
+    
+    .bg-custom-fixed{
+        background: linear-gradient(35deg, rgba(0, 0, 0, .8), rgba(0, 0, 0, .8), rgba(0, 0, 0, .8));   
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        color: rgba(255,255,255,1);
+        transition: all .5s;
+        padding: 10px 15px;
+        font-weight: 400;
+        /* font-family: 'Offside', cursive; */
+        display:inline-block;
+        height: 100%;
+        width: 50%;
+       
+    }
+    
+    .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+        background: #FF0055;
+        color:#FFF;
+        
+    }
+    /********fim navegação************/
+
+    .invisible-xs{
+        display: none;
+    }
+
+    .text-center-xs{
+        text-align: center!important;
+    }
+
+    #topo, #sobre, #ideia, #codemaker-home, #servicos, #portfolio-home, #contato-home, footer, footer form{  
+        padding-top: 50px;
+        text-align: center;
+    }
+    
+    /**************************************
+    ***********************HEADER*************/
+    #topo{
+        background: linear-gradient(45deg, rgba(255, 0, 0, .5), rgba(0, 0, 0, .8), rgba(0, 0, 0, 1)), url("../img/dois-2k-escritorio.jpg") center no-repeat;
+        height: 100vh;
+        background-size: cover;
+       
+    }
+
+    #topo p{
+        font-size: .900em!important;
+        color: #ff00ff;
+        font-weight: bold;
+        width: auto;
+    }
+
+    #topo span{
+        
+       font-weight: bold;
+       text-transform: uppercase;
+    }
+
+    #topo h2{
+      margin-bottom: 20px;
+      font-size: 1.2em;
+      color: #c3c3c3;
+      
+      
+  }
+  
+    .text-header{
+        padding: 20px 20px;
+        z-index: 2;
+        
+    }
+    
+    .text-header h1{
+      font-size: 1.8em;
+      color: #FFF;
+      font-family: 'Offside', cursive;
+      padding-bottom: 1px;
+      
+    }
+  
+    .text-header h2{
+        font-size: 2.5em;
+        color: #FFF;
+        font-weight: 700;
+        font-family: 'Offside', cursive;
+    }
+  
+    .text-header h4{
+      font-size: 1.4em;
+      color: #FFF;
+  }
+  .indicator{
+      position: relative;
+      top:10%;
+      bottom: 0;
+  }
+
+  .indicator{
+    position: relative;
+    top:30%;
+    bottom: 0;
+}
+
+.seta i{
+    font-size: 3em;
+    padding-top: 0px;
+     color: #c3c3c3;
+ }
+ .seta i:hover{
+     color: #FFF;
+ }
+
+footer form{
+   padding-left:30px;
+}
+
+}
+
+
+@media only screen and (min-width:768px) and (max-width: 991px) {
+    html,body{
+        
+       
+    }
+
+
+    #topo, #sobre, #ideia, #codemaker-home, #servicos, #portfolio-home, #contato-home{
+        
+      
+       
+    }
+
+    .video-bg{
+        width:auto;
+    }
+}
